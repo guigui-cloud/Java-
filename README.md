@@ -8,7 +8,9 @@ Java课程作业项目仓库
 
 ## 实验过程
 1.创建Test文件、包package1、主类Test和其他类CPU、HardDisk、PC
-2.依次对类CPU、HardDisk、PC、Test进行处理
+
+2.依次对类CPU、HardDisk、PC、Test进行处理，使CPU类具备获取CPU速度的功能，HardDisk类有获取容量的功能，而PC类使PC具有前两类处理过后的CPU属性和HardDisk属性，并创建输出这两个属性的方法。
+
 3.运行Test
 
 ## 核心方法
