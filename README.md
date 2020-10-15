@@ -12,9 +12,9 @@ Java课程作业项目仓库
 3.运行Test
 
 ## 核心方法
-1.public void setSpeed(int m) {
-
-		this.speed = m;
+1.
+public void setSpeed(int m) {
+                this.speed = m;
 	}
   
 2.int getspeed() {
