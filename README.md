@@ -12,13 +12,35 @@ Java课程作业项目仓库
 3.运行Test
 
 ## 核心方法
-1.setSpeed(int m)
-2.getSpeed()
-3.setAmount(int m)
-4.getAmount()
-5.setCPU(CPU c)
-6.setHardDisk(HardDisk h)
-7.show()
+1.public void setSpeed(int m) {
+		this.speed = m;
+	}
+  
+2.int getspeed() {
+		return speed;
+	}
+  
+3.public void setAmount(int m) {
+		this.amount = m;
+	}
+  
+4.public int getAmount() {
+		return amount;
+	}
+  
+5.public void setCPU(CPU c) {
+		this.CPU = c;
+	}
+  
+6.public void setHardDisk(HardDisk h) {
+		this.HD = h;
+	}
+  
+7.public void show() {
+		System.out.println("CPU速度"+CPU.getspeed());
+		System.out.println("硬盘容量"+HD.getAmount());
+	}
+  
 
 ## 实验结果
 成功运行出了：CPU速度2200
