@@ -16,16 +16,14 @@ Java课程作业项目仓库
 
 ## 核心方法  
 1.  
-`public void setSpeed(int m) {  
-
-		this.speed = m;  
-		
+```  
+public void setSpeed(int m) {
+		this.speed = m;
 	}
-	int getspeed() {  
-	
-		return speed;  
-		
-	}`
+	int getspeed() {
+		return speed;
+	}  
+```
   
 
 ## 实验结果
