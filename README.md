@@ -23,8 +23,30 @@ public void setSpeed(int m) {
 	int getspeed() {
 		return speed;
 	}  
-```
-  
+```  
+2.  
+```  
+public void setAmount(int m) {
+		this.amount = m;
+	}
+	public int getAmount() {
+		return amount;
+	}  
+```  
+3.  
+```  
+public void setCPU(CPU c) {
+		this.CPU = c;
+	}
+	public void setHardDisk(HardDisk h) {
+		this.HD = h;
+	}
+	public void show() {
+		System.out.println("CPU速度"+CPU.getspeed());
+		System.out.println("硬盘容量"+HD.getAmount());
+	}  
+```  
+
 
 ## 实验结果
 成功运行出了：CPU速度2200
